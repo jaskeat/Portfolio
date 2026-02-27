@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="name">Jaskeat Singh</h1>
+			<p class="description">
+				Final year student that likes making machine learning/Frontend
+				projects
+			</p>
+			<a
+				href="https://github.com/jaskeat"
+				class="github-link"
+				target="_blank"
+				>github.com/jaskeat</a
+			>
+			<div class="scroll-indicator">
+				<span class="scroll-text">Scroll Down</span>
+				<div class="scroll-arrow">↓</div>
+			</div>
+		</div>
+
+		<section class="projects-section">
+			<h2 class="projects-heading">Projects</h2>
+			<div class="filter-buttons">
+				<button class="filter-btn active" data-filter="all">All</button>
+				<button class="filter-btn" data-filter="ml">
+					Machine Learning
+				</button>
+				<button class="filter-btn" data-filter="frontend">
+					Frontend
+				</button>
+			</div>
+			<div class="projects-grid">
+				<div class="project-card" data-category="ml">
+					<img
+						src="Images/Loan.png"
+						alt="Project 1"
+						class="project-image"
+					/>
+					<h3 class="project-title">Loan classification</h3>
+					<p class="project-description">
+						ML Project that automatically rejects or accepts loans
+						given customer and loan data
+					</p>
+					<div class="project-buttons">
+						<a
+							href="https://github.com/jaskeat/loanApproval"
+							class="project-link github-btn"
+							target="_blank"
+							>GitHub</a
+						>
+						<a
+							href="https://drive.google.com/file/d/1aK_zeuOsW7sc7ECdh9Mrnv_zeJuTF7XO/view?usp=drive_link"
+							class="project-link website-btn"
+							target="_blank"
+							>Video Demo</a
+						>
+					</div>
+				</div>
+				<div class="project-card" data-category="ml">
+					<img
+						src="./Images/NLP.png"
+						alt="Project 2"
+						class="project-image"
+					/>
+					<h3 class="project-title">News NLP</h3>
+					<p class="project-description">
+						Get sementic analysis of recent news on any topic to see
+						if the news are positive or negative
+					</p>
+					<div class="project-buttons">
+						<a
+							href="https://github.com/jaskeat/newsSentiment"
+							class="project-link github-btn"
+							target="_blank"
+							>GitHub</a
+						>
+						<a
+							href="https://drive.google.com/file/d/1UEHA0wnHZmDJqlpDIyv7Q3MERWATmHkd/view?usp=drive_link"
+							class="project-link website-btn"
+							target="_blank"
+							>Video Demo</a
+						>
+					</div>
+				</div>
+				<div class="project-card" data-category="ml">
+					<img
+						src="./Images/distribution.png"
+						alt="Project 3"
+						class="project-image"
+					/>
+					<h3 class="project-title">Distribution Analysis</h3>
+					<p class="project-description">
+						Data analysis project to choose the most optimal
+						locations for a distribution center
+					</p>
+					<a
+						href="https://github.com/jaskeat/distributionAnalysis"
+						class="project-link"
+						target="_blank"
+						>View on GitHub</a
+					>
+				</div>
+
+				<div class="project-card" data-category="ml">
+					<img
+						src="./Images/birdDashboard.png"
+						alt="Project 3"
+						class="project-image"
+					/>
+					<h3 class="project-title">Bird Sighting Dashboard</h3>
+					<p class="project-description">
+						Dashboard that shows off bird sightings in Hong Kong
+					</p>
+					<div class="project-buttons">
+						<a
+							href="https://github.com/jaskeat/birdDashboard"
+							class="project-link github-btn"
+							target="_blank"
+							>Github</a
+						>
+						<a
+							href="https://drive.google.com/file/d/1tBH_CsSCxyNtmbkrqgdX7Mm8yBJxAWVn/view?usp=sharing"
+							class="project-link website-btn"
+							target="_blank"
+							>Video Demo</a
+						>
+					</div>
+				</div>
+
+				<div class="project-card" data-category="frontend">
+					<img
+						src="./Images/vault.png"
+						alt="Project 3"
+						class="project-image"
+					/>
+					<h3 class="project-title">Personal Vault</h3>
+					<p class="project-description">
+						A personal Habit Tracker, dictionary and other utils
+						built by myself, for myself
+					</p>
+					<div class="project-buttons">
+						<a
+							href="https://drive.google.com/file/d/1mfO-VwATMYngzndOvCossHhrK-927Hiz/view?usp=sharing"
+							class="project-link website-btn"
+							target="_blank"
+							>Video Demo</a
+						>
+					</div>
+				</div>
+
+				<div class="project-card" data-category="frontend">
+					<img
+						src="./Images/punjabiGuide.png"
+						alt="Project 3"
+						class="project-image"
+					/>
+					<h3 class="project-title">Punjabi Guide</h3>
+					<p class="project-description">
+						A website to help people find resources to learn a
+						language
+					</p>
+					<div class="project-buttons">
+						<a
+							href="https://punjabiguide.com"
+							class="project-link website-btn"
+							target="_blank"
+							>Website</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
